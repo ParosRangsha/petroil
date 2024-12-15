@@ -53,11 +53,13 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="certificate w-1/4">
-          <h3 className='text-[22px] font-[700] text-[#fff]'>Certificate</h3>
-          <div className="thumb flex gap-1 py-3">
-            <img src={certificateOne} alt="certificate" />
-            <img src={certificateTwo} alt="certificate" />
+        <div className="certificate w-1/4 flex justify-end">
+          <div className="items">
+            <h3 className='text-[22px] font-[700] text-[#fff]'>Certificate</h3>
+            <div className="thumb flex gap-1 py-3">
+              <img src={certificateOne} alt="certificate" />
+              <img src={certificateTwo} alt="certificate" />
+            </div>
           </div>
         </div>
       </div>
