@@ -4,6 +4,8 @@ import { FaPhoneAlt } from "react-icons/fa"
 import { MdMailOutline } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import certificateOne from '../img/certificate1.png'
+import certificateTwo from '../img/certificate2.png'
 
 const Footer = () => {
   return (
@@ -50,6 +52,13 @@ const Footer = () => {
               <Link to='/' className='py-[5px] inline-block'>Privacy Policy</Link>
             </li>
           </ul>
+        </div>
+        <div className="certificate w-1/4">
+          <h3 className='text-[22px] font-[700] text-[#fff]'>Certificate</h3>
+          <div className="thumb flex gap-1 py-3">
+            <img src={certificateOne} alt="certificate" />
+            <img src={certificateTwo} alt="certificate" />
+          </div>
         </div>
       </div>
     </div>
