@@ -8,6 +8,9 @@ export default {
     extend: {
       maxWidth:{
         container: '1140px'
+      },
+      backgroundImage: {
+        ban: "url(./src/img/banner.png)"
       }
     },
   },
