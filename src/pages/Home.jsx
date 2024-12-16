@@ -4,6 +4,10 @@ import viewOne from './../img/view1.png'
 import viewTwo from './../img/view2.png'
 import viewThree from './../img/view3.png'
 import viewFour from './../img/view4.png'
+import supportOne from './../img/support1.png'
+import supportTwo from './../img/support2.png'
+import supportThree from './../img/support3.png'
+import supportFour from './../img/support4.png'
 const Home = () => {
   return (
     <div className="home">
@@ -54,6 +58,49 @@ const Home = () => {
               </div>
           </div>
         </div>
+      </div>
+      <div className="learn bg-[#00000010] py-[100px]">
+        <div className="max-w-container mx-auto flex">
+          <div className="txt w-[35%] bg-[#f00] py-[100px] px-[75px]">
+            <h2 className='text-[36px] font-[700] text-[#fff]'>Learn more about our company</h2>
+          </div>
+          <div className="w-[65%] bg-banFour bg-cover flex justify-center items-center">
+            <Link to='/' className='py-[15px] px-[30px] bg-[#fff] font-[700] hover:bg-[#0d0] hover:text-[#fff] transition duration-[1s] rounded-[10px]'>Learn More</Link>
+          </div>
+        </div>
+      </div>
+      <div className="support max-w-container mx-auto my-[20px] py-[115px]">
+        <div className="contain w-full flex justify-between ">
+          <img src={supportOne} alt="support" className='w-[25%]'/>
+          <img src={supportTwo} alt="support" className='w-[25%]' />
+          <img src={supportThree} alt="support className='w-[25%]'" />
+          <img src={supportFour} alt="support" className='w-[25%]' />
+        </div>
+      </div>
+      <div className="blog bg-[#00000010] py-[100px]">
+        <div className="max-w-container mx-auto my-[20px] flex justify-between">
+          <div className="item w-[32%] bg-blogOne bg-cover">
+            <div className="shade py-[75px] px-[45px] bg-[#00000090]">
+              <p className='text-[24px] font-[700] text-[#fff]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
+              <Link to='/' className='py-[15px] px-[30px] bg-[#ffffff50] inline-block my-[30px] text-[#fff] font-[700]'>Read more</Link>
+            </div>
+          </div>
+          <div className="item w-[32%] bg-blogTwo bg-cover">
+            <div className="shade py-[75px] px-[45px] bg-[#00000090]">
+              <p className='text-[24px] font-[700] text-[#fff]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
+              <Link to='/' className='py-[15px] px-[30px] bg-[#ffffff50] inline-block my-[30px] text-[#fff] font-[700]'>Read more</Link>
+            </div>
+          </div>
+          <div className="item w-[32%] bg-blogThree bg-cover">
+            <div className="shade py-[75px] px-[45px] bg-[#00000090]">
+              <p className='text-[24px] font-[700] text-[#fff]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
+              <Link to='/' className='py-[15px] px-[30px] bg-[#ffffff50] inline-block my-[30px] text-[#fff] font-[700]'>Read more</Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="map">
+        <iframe className='w-full h-[350px] border-8 border-[#f00]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d383.8873715447503!2d90.3824305639961!3d23.741218416602113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a55cd36f%3A0xfcc5b021faff43ea!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1734361958672!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   )

@@ -57,8 +57,8 @@ const Footer = () => {
           <div className="items">
             <h3 className='text-[22px] font-[700] text-[#fff]'>Certificate</h3>
             <div className="thumb flex gap-1 py-3">
-              <img src={certificateOne} alt="certificate" />
-              <img src={certificateTwo} alt="certificate" />
+              <img src={certificateOne} alt="certificate" className='w-[45%]'/>
+              <img src={certificateTwo} alt="certificate" className='w-[45%]'/>
             </div>
           </div>
         </div>
