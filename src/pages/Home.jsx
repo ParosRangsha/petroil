@@ -8,6 +8,7 @@ import supportOne from './../img/support1.png'
 import supportTwo from './../img/support2.png'
 import supportThree from './../img/support3.png'
 import supportFour from './../img/support4.png'
+import { MdArrowForwardIos } from "react-icons/md";
 const Home = () => {
   return (
     <div className="home">
@@ -98,9 +99,18 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="max-w-container mx-auto flex justify-end">
+          <Link to='/' className='text-right flex items-center font-[700]'> <p>MORE FROM THE BLLOG</p> <MdArrowForwardIos /></Link>
+        </div>
       </div>
       <div className="map">
         <iframe className='w-full h-[350px] border-8 border-[#f00]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d383.8873715447503!2d90.3824305639961!3d23.741218416602113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a55cd36f%3A0xfcc5b021faff43ea!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1734361958672!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div className="knowmore bg-[#f00] py-[20px]">
+        <div className="contain max-w-container mx-auto flex items-center justify-between">
+          <p className='text-[#fff] text-[36px] font-[700]'>Want to join as member branch in your area?</p>
+          <Link to='/' className='py-[15px] px-[30px] border-[1px] border-[#fff] text-[#fff] font-[700] hover:bg-[#0d0] transition duration-[1s] rounded-[10px]'>Contact</Link>
+        </div>
       </div>
     </div>
   )
