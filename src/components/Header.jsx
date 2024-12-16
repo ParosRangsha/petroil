@@ -48,7 +48,7 @@ const Header = () => {
                             <Link to='/' className='py-[12px] px-[24px] inline-block font-[700]'>Blog</Link>
                         </li>
                         <li>
-                            <Link to='/' className='py-[12px] px-[24px] inline-block font-[700] border-[2px] border-[white] rounded-[5px] transition duration-[1s] hover:bg-[yellow] '>Contact</Link>
+                            <Link to='/' className='py-[12px] px-[24px] inline-block font-[700] border-[2px] border-[white] rounded-[5px] transition duration-[1s] hover:bg-[#0d0] '>Contact</Link>
                         </li>
                     </ul>
                 </div>

@@ -10,7 +10,13 @@ export default {
         container: '1140px'
       },
       backgroundImage: {
-        ban: "url(./src/img/banner.png)"
+        ban: "url(./src/img/banner.png)",
+        banOne: 'url(./src/img/ban1.png)',
+        banTwo: 'url(./src/img/ban2.png)',
+        banThree: 'url(./src/img/ban3.png)',
+      },
+      fontFamily:{
+        'pops': ['Poppins', 'sans-serif']
       }
     },
   },

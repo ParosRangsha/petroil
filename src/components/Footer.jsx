@@ -14,9 +14,9 @@ const Footer = () => {
         <div className="contact w-1.5/4">
           <img src={logo} alt="logo" />
           <ul className='text-[#fff] py-[15px]'>
-            <li className='flex gap-1 py-[5px]'><MdMailOutline /> mail@yourcompany.com</li>
-            <li className='flex gap-1 py-[5px]'><FaPhoneAlt /> +896 120 5889 (Toll free)</li>
-            <li className='flex gap-1 py-[5px]'><FaLocationDot /> 101 Baker Street, New York, USA, 12345</li>
+            <li className='flex gap-1 py-[5px] items-center'><MdMailOutline /> <p>mail@yourcompany.com</p></li>
+            <li className='flex gap-1 py-[5px] items-center'><FaPhoneAlt /> <p>+896 120 5889 (Toll free)</p></li>
+            <li className='flex gap-1 py-[5px] items-center'><FaLocationDot /> <p>101 Baker Street, New York, USA, 12345</p></li>
           </ul>
         </div>
         <div className="company w-.75/4">
