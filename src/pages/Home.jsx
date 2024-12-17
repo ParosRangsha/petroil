@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ban from './../img/banner.png'
 import viewOne from './../img/view1.png'
 import viewTwo from './../img/view2.png'
 import viewThree from './../img/view3.png'
@@ -9,10 +10,11 @@ import supportTwo from './../img/support2.png'
 import supportThree from './../img/support3.png'
 import supportFour from './../img/support4.png'
 import { MdArrowForwardIos } from "react-icons/md";
+
 const Home = () => {
   return (
     <div className="home">
-      <div className="banner bg-ban bg-cover bg-center">
+      <div className="banner bg-cover bg-center" style={{backgroundImage: `url(${ban})`}}>
         <div className="shade w-full bg-[rgba(0,0,0,0.5)] py-[257px] ">
           <div className="max-w-container mx-auto">
             <h2 className='text-[64px] font-[700] text-[#fff]'>We exist since 1975 on the oil and gas industry.</h2>
