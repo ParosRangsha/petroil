@@ -9,6 +9,14 @@ import supportOne from './../img/support1.png'
 import supportTwo from './../img/support2.png'
 import supportThree from './../img/support3.png'
 import supportFour from './../img/support4.png'
+import blogOne from './../img/blog1.png'
+import blogTwo from './../img/blog2.png'
+import blogThree from './../img/blog3.png'
+import banOne from './../img/ban1.png'
+import banTwo from './../img/ban2.png'
+import banThree from './../img/ban3.png'
+import banFour from './../img/learn.png'
+
 import { MdArrowForwardIos } from "react-icons/md";
 
 const Home = () => {
@@ -40,7 +48,7 @@ const Home = () => {
               <h2 className='text-[64px] font-[700]'>Our Services</h2>
               <p className='text-justify'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
-          <div className="item w-[50%] bg-banOne bg-cover">
+          <div className="item w-[50%] bg-cover" style={{backgroundImage: `url(${banOne})`}}>
               <div className="p-[50px] bg-[#00000060] h-full">
                 <h2 className='text-[36px] font-[700] text-[#fff]'>Modern natural oil and gas refineries.</h2>
                 <Link to='/' className='py-[15px] px-[30px] inline-block bg-[#f00] my-[15px] text-[#fff]'>Learn More</Link>
@@ -48,13 +56,13 @@ const Home = () => {
           </div>
         </div>
         <div className="flex">
-          <div className="item w-[50%] bg-banTwo bg-cover">
+          <div className="item w-[50%] bg-cover" style={{backgroundImage: `url(${banTwo})`}}>
               <div className="p-[50px] bg-[#00000060] h-full">
                 <h2 className='text-[36px] font-[700] text-[#fff]'>Supply of national industries.</h2>
                 <Link to='/' className='py-[15px] px-[30px] inline-block bg-[#f00] my-[15px] text-[#fff]'>Learn More</Link>
               </div>
           </div>
-          <div className="item w-[50%] bg-banThree bg-cover">
+          <div className="item w-[50%] bg-cover" style={{backgroundImage: `url(${banThree})`}}>
               <div className="p-[50px] bg-[#00000060] h-full">
                 <h2 className='text-[36px] font-[700] text-[#fff]'>National fuel distribution and supply.</h2>
                 <Link to='/' className='py-[15px] px-[30px] inline-block bg-[#f00] my-[15px] text-[#fff]'>Learn More</Link>
@@ -67,7 +75,7 @@ const Home = () => {
           <div className="txt w-[35%] bg-[#f00] py-[100px] px-[75px]">
             <h2 className='text-[36px] font-[700] text-[#fff]'>Learn more about our company</h2>
           </div>
-          <div className="w-[65%] bg-banFour bg-cover flex justify-center items-center">
+          <div className="w-[65%] bg-cover flex justify-center items-center" style={{backgroundImage: `url(${banFour})`}}>
             <Link to='/' className='py-[15px] px-[30px] bg-[#fff] font-[700] hover:bg-[#0d0] hover:text-[#fff] transition duration-[1s] rounded-[10px]'>Learn More</Link>
           </div>
         </div>
@@ -82,19 +90,19 @@ const Home = () => {
       </div>
       <div className="blog bg-[#00000010] py-[100px]">
         <div className="max-w-container mx-auto my-[20px] flex justify-between">
-          <div className="item w-[32%] bg-blogOne bg-cover">
+          <div className="item w-[32%] bg-cover" style={{backgroundImage: `url(${blogOne})`}}>
             <div className="shade py-[75px] px-[45px] bg-[#00000090]">
               <p className='text-[24px] font-[700] text-[#fff]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
               <Link to='/' className='py-[15px] px-[30px] bg-[#ffffff50] inline-block my-[30px] text-[#fff] font-[700]'>Read more</Link>
             </div>
           </div>
-          <div className="item w-[32%] bg-blogTwo bg-cover">
+          <div className="item w-[32%] bg-cover" style={{backgroundImage: `url(${blogTwo})`}}>
             <div className="shade py-[75px] px-[45px] bg-[#00000090]">
               <p className='text-[24px] font-[700] text-[#fff]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
               <Link to='/' className='py-[15px] px-[30px] bg-[#ffffff50] inline-block my-[30px] text-[#fff] font-[700]'>Read more</Link>
             </div>
           </div>
-          <div className="item w-[32%] bg-blogThree bg-cover">
+          <div className="item w-[32%] bg-cover" style={{backgroundImage: `url(${blogThree})`}}>
             <div className="shade py-[75px] px-[45px] bg-[#00000090]">
               <p className='text-[24px] font-[700] text-[#fff]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
               <Link to='/' className='py-[15px] px-[30px] bg-[#ffffff50] inline-block my-[30px] text-[#fff] font-[700]'>Read more</Link>
