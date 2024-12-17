@@ -73,9 +73,9 @@ const Home = () => {
       <div className="support max-w-container mx-auto my-[20px] py-[115px]">
         <div className="contain w-full flex justify-between ">
           <img src={supportOne} alt="support" className='w-[25%]'/>
-          <img src={supportTwo} alt="support" className='w-[25%]' />
-          <img src={supportThree} alt="support className='w-[25%]'" />
-          <img src={supportFour} alt="support" className='w-[25%]' />
+          <img src={supportTwo} alt="support" className='w-[25%]'/>
+          <img src={supportThree} alt="support" className='w-[25%]'/>
+          <img src={supportFour} alt="support" className='w-[25%]'/>
         </div>
       </div>
       <div className="blog bg-[#00000010] py-[100px]">
